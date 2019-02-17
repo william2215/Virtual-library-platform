@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1 align="center">Registrar</h1>
+	<form method="post" action="php/form_alumno.php">
+		<table border="0" align="center">
+			<tr>
+				<td>Carnet</td>
+				<td><input type="number" name="idCarnet" id="idCarnet"></td>
+			</tr>
+			<tr>
+				<td>Nombre</td>
+				<td><input type="text" name="Nombre" id="Nombre"></td>
+			</tr>
+			<tr>
+				<td>Primer Apellido</td>
+				<td><input type="text" name="Pa" id="Pa"></td>
+			</tr>
+			<tr>
+				<td>Segundo Apellido</td>
+				<td><input type="text" name="Sa" id="Sa"></td>
+			</tr>
+			<tr>
+				<td>Celular</td>
+				<td><input type="number" name="Celular" id="Celular"></td>
+			</tr>
+			<tr>
+				<td>Nivel</td>
+				<td><select type="text" name="Nivel" id="Nivel">
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    </select>
+			</tr>
+            <tr>
+				<td>Sección</td>
+				<td><select type="text" name="Seccion" id="Seccion">
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                    </select>
+                </td>
+			</tr>
+			<tr>
+				<td>Especialidad</td>
+				<td><select type="text" name="Especialidad" id="Especialidad">
+                    <option></option>
+                    <option>Informática en Desarollo</option>
+                    <option>Informática en Redes</option>
+                    <option>Mecánica de Presición</option>
+                    <option>Diseño Gráfico</option>
+                    <option>Dibujo Arquitectónico</option>
+                    <option>Electromecánica</option>
+                    <option>Electrónica</option>
+                    </select>
+                    </td>
+			</tr>
+			<tr>
+				<td>Correo Electrónico</td>
+				<td><input type="email" name="Correo" id="Correo"></td>
+			</tr>
+			<tr>
+				<td>Contraseña</td>
+				<td><input type="password" name="Password" id="Password"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+				<td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+			</tr>
+		</table>
+	</form>
+	<br>
+</body>
+</html>
